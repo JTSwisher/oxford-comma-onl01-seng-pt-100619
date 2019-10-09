@@ -5,3 +5,14 @@ def oxford_comma(array)
   
 
 end
+
+
+def oxford_comma(array)
+  array.insert(-2, " and ").join do |insert|
+    puts "#{insert}"
+  end 
+  
+
+end
+
+  
