@@ -7,6 +7,10 @@ def oxford_comma(array)
     puts "#{insert}"
   end 
 
+  array.insert(-1, " and ").join(",") do |insert|
+    puts "#{insert}"
+  end 
+  
 end
 
 
