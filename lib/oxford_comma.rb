@@ -1,6 +1,6 @@
 def oxford_comma(array)
   array.join do |join|
-    puts "#{join}"
+    print "#{join}"
   end 
   
   array.insert(-2, " and ").join do |insert|
