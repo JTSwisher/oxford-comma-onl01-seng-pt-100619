@@ -7,10 +7,4 @@ def oxford_comma(array)
     puts "#{insert}"
   end 
   
-  
-  
-  
-  
-  
-  
 end
